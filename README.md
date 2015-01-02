@@ -1,4 +1,4 @@
-anchored
+Anchored
 ========
 
-Anchored.io
+http://anchored.io
