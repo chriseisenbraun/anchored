@@ -1,0 +1,14 @@
+extends layout
+
+block header
+  header
+    div.logo ANCHORED
+      div.logo-extra
+      div.logo-bottom-text Web Design
+    div.scroll-down
+      div.scroll-down-left(style="transform:rotateZ(45deg)")
+      div.scroll-down-right(style="transform:rotateZ(-45deg)")
+block content
+  div.content
+    h1= title
+    p Welcome to #{title}

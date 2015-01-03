@@ -1,0 +1,78 @@
+@logo-color: white;
+
+header {
+  text-align: center;
+  background-image: url("/img/background-large.gif");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  img {
+    width: 100%;
+  }
+}
+
+.logo {
+  font-family: @logo-font;
+  font-size: 160px;
+  text-align: center;
+  color: @logo-color;
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  opacity: 0;
+}
+
+.logo-bottom-text {
+  position: absolute;
+  font-family: @body-font;
+  font-size: 31px;
+  font-weight: 200;
+  bottom: -14px;
+  right: 57px;
+  opacity: 0;
+}
+
+.logo-extra {
+  background-color: @logo-color;
+  transform-origin: 0 0;
+  height: 112px;
+  width: 6px;
+  position: absolute;
+  bottom: 35px;
+  left: 259px;
+}
+
+@scroll-down-width: 60px;
+@scroll-down-color: @logo-color;
+.scroll-down {
+  width: @scroll-down-width;
+  height: @scroll-down-width;
+  border-radius: 50%;
+  border: 3px solid @scroll-down-color;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -@scroll-down-width/2;
+}
+
+.scroll-down-left,
+.scroll-down-right {
+  height: 3px;
+  width: 30px;
+  background-color: @scroll-down-color;
+  position: absolute;
+  content: "";
+  top: 35px;
+}
+
+.scroll-down-left {
+  left: 5px;
+  transform: rotate(45deg);
+}
+.scroll-down-right {
+  left: 25px;
+  transform: rotate(-45deg);
+}
