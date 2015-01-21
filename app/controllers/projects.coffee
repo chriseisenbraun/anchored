@@ -5,5 +5,4 @@ module.exports = (app) ->
   app.use '/', router
 
 router.get '/projects', (req, res, next) ->
-  res.render 'index',
-    title: 'Projects Page'
+  res.render 'projects'

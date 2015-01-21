@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="iPhone" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 278 547" enable-background="new 0 0 278 547" xml:space="preserve">
+<path id="Body_Out" fill="#313131" d="M273,123h-3.2V41.5c0-18.7-15.3-34-34-34H44c-18.7,0-34,15.3-34,34v33.6H8.2v22.5H10v23.6H7.2
+	v35.2H10V173H7.2v36.3H10v293.9c0,18.7,15.3,34,34,34h191.8c18.7,0,34-15.3,34-34V158.4h3.2V123z M255,476.5H25.2V69.2h230
+	L255,476.5z"/>
+<path id="Body_In" d="M234.5,11.8H45c-17,0-31,14-31,31v459.8c0,17,14,31,31,31h189.5c17,0,31-14,31-31V42.8
+	C265.5,25.7,251.5,11.8,234.5,11.8z M140.2,18.3c2.5,0,4.6,2.1,4.6,4.6s-2.1,4.6-4.6,4.6s-4.6-2.1-4.6-4.6S137.7,18.3,140.2,18.3z
+	 M123.2,38.8h34c2.1,0,3.8,1.7,3.8,3.8s-1.7,3.8-3.8,3.8h-34c-2.1,0-3.8-1.7-3.8-3.8S121.2,38.8,123.2,38.8z M255,476.5H25.2V69.2
+	h230L255,476.5z"/>
+<g id="Finger">
+	<path fill="none" stroke="#3A3A3A" stroke-width="4" stroke-miterlimit="10" d="M144.6,523h-1c-9.4,0-17-7.6-17-17v-1
+		c0-9.4,7.6-17,17-17h1c9.4,0,17,7.6,17,17v1C161.6,515.3,154,523,144.6,523z"/>
+</g>
+</svg>
