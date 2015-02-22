@@ -1,6 +1,6 @@
 # Libraries
 
-$ = require 'jquery'
+$ = require '../vendor/jquery.coffee'
 
 class HitPoint
 

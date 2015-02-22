@@ -1,5 +1,5 @@
 # Lib
-$ = require 'jquery'
+$ = require '../vendor/jquery.coffee'
 _ = require 'underscore'
 Backbone = require '../vendor/backbone.coffee'
 
