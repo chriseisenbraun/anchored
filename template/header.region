@@ -9,6 +9,7 @@
       try{Typekit.load();}catch(e){}
     </script>
     <script type="text/javascript" src="//localhost:35729/livereload.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <!--Include sqs scripts, meta tags, and user content from the code injection tab.-->
     {squarespace-headers}
   </head>

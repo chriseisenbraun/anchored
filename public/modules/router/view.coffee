@@ -1,6 +1,6 @@
 # Lib
 _ = require 'underscore'
-$ = require 'jquery'
+$ = require '../vendor/jquery.coffee'
 Backbone = require "../vendor/backbone.coffee"
 
 # Internal

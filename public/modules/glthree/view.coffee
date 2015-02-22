@@ -2,7 +2,7 @@
 Three = require 'threejs'
 Stats = require 'stats.js'
 _ = require 'underscore'
-$ = require 'jquery'
+$ = require '../vendor/jquery.coffee'
 Backbone = require "../vendor/backbone.coffee"
 
 class GLThreeView extends Backbone.View

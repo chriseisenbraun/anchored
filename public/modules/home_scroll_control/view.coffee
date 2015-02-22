@@ -1,4 +1,4 @@
-$ = require 'jquery'
+$ = require '../vendor/jquery.coffee'
 _ = require 'underscore'
 ScrollControlBase = require "./../scroll/base.coffee"
 

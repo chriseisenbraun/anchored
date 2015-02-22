@@ -1,5 +1,5 @@
 # Libraries
-$                 = require 'jquery'
+$                 = require '../vendor/jquery.coffee'
 
 # Internal
 ScrollControlBase = require './../scroll/base.coffee'

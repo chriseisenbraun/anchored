@@ -1,4 +1,4 @@
-$ = require 'jquery'
+$ = require '../vendor/jquery.coffee'
 require 'velocity'
 _ = require 'underscore'
 Backbone = require "../vendor/backbone.coffee"
