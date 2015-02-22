@@ -1,0 +1,65 @@
+
+.section.logo-section {
+  text-align: center;
+  background-image: url("/assets/img/background-large.gif");
+  background-size: cover;
+  /*position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  img {
+    width: 100%;
+  }*/
+}
+
+.logo-section .logo {
+  font-size: 160px;
+  position: relative;
+  top: 100px;
+  opacity: 0;
+  z-index: 9;
+}
+
+.logo-section .logo-extra {
+  transform: scale(1);
+}
+
+.logo-dark-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo-bottom-text {
+  position: absolute;
+  font-family: @body-font;
+  font-size: 31px;
+  font-weight: 200;
+  bottom: -14px;
+  right: 57px;
+  opacity: 0;
+}
+
+
+.logo-dark-overlay {
+  background-color: black;
+  opacity: 0.3;
+}
+
+.tagline {
+  color: @logo-color;
+  z-index: 8;
+  position: absolute;
+  top: 50%;
+  font-size: 35px;
+  width: 740px;
+  margin: 0 auto;
+  left: 50%;
+  margin-left: -370px;
+  margin-top: -40px;
+}
+
+@import 'scroll_down.less';

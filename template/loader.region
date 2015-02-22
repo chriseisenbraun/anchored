@@ -1,0 +1,8 @@
+<!-- Loader -->
+<div class="loader">
+  <div class="loader-left"></div>
+  <div class="loader-body">
+    <div class="loader-circle"></div>
+  </div>
+  <div class="loader-right"></div>
+</div>

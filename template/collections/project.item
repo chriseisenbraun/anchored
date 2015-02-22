@@ -1,0 +1,43 @@
+<div class="section project-section">
+  <div class="project-header">
+    <div class="project-header-banner">
+      <div class="project-header-banner-inner project-header-banner"
+           style="background-image: url('{item.customContent.headerPicture.assetUrl}');">
+        <div class="project-header-banner-overlay"></div>
+        <div class="project-header-text">
+          {.section item}
+          <h2>{.repeated section categories}{@}{.end}</h2>
+          <h1>{title}</h1>
+          {.end}
+        </div>
+      </div>
+    </div>
+    <div class="project-header-mac">
+      <div class="project-header-mac-content"><img src="{item.customContent.desktopScreenshot.assetUrl}"/></div><img src="/assets/img/project/mac.svg" class="project-header-mac-image"/>
+    </div>
+  </div>
+  <div class="content-region">
+    <div class="project-description">
+      <h2>What is it?</h2>
+      {.section item}{body}{.end}
+    </div>
+  </div>
+  <div class="project-desktop"><img src="{item.customContent.desktopScreenshot.assetUrl}"/></div>
+  <div class="content-region">
+    <div class="project-phones">
+      <div class="project-phone project-iphone">
+        <div class="project-phone-content">
+          <img src="{item.customContent.iphoneScreenshot.assetUrl}"/>
+        </div>
+        <img src="/assets/img/project/iphone.svg"/>
+      </div>
+      <div class="project-phone project-samsung">
+        <div class="project-phone-content"><img src="{item.customContent.samsungScreenshot.assetUrl}"/></div><img src="/assets/img/project/galaxy.svg"/>
+      </div>
+    </div>
+    <div class="project-ipad">
+      <div class="project-phone-content"><img src="{item.customContent.ipadScreenshot.assetUrl}"/></div><img src="/assets/img/project/ipad.svg"/>
+    </div>
+    <div class="project-launch"></div>
+  </div>
+</div>

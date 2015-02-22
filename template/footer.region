@@ -1,0 +1,12 @@
+        <!--Combo and minify the scripts when you're not logged in.-->
+        <squarespace:script src="site.js"
+                            combo="{.if authenticatedAccount}false{.or}true{.end}" />
+        <squarespace:script src="bundle.js"
+                            combo="{.if authenticatedAccount}false{.or}true{.end}" />
+
+        <!--Injection point for tracking scripts and user content from the code injection tab.-->
+        {squarespace-footers}
+      </div> <!-- Scroll Control-->
+    </div> <!-- Content -->
+  </body>
+</html>

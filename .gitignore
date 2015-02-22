@@ -1,4 +1,7 @@
+.idea/
 node_modules/
+npm-debug.log
 public/components
-.sass-cache
+public/node_modules/
+template/.sqs-cache/
 public/js/bundle.js

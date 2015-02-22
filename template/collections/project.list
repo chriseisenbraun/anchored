@@ -1,0 +1,16 @@
+<div class="section projects-section">
+  {.repeated section items}
+    <!--WRAPPER-->
+    <a class="project" id="project-{id}" class="{@|item-classes}" data-item-id="{id}" href="{fullUrl}">
+      <div class="project-image" style="background-image:url('{customContent.headerPicture.assetUrl}')">
+      </div>
+      <div class="project-text"> {title}
+        {.repeated section categories}
+        <span>{@}</span>
+        {.end}
+      </div>
+    </a>
+  {.or}
+      No projects posts yet.
+  {.end}
+</div>
