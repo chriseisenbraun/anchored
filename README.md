@@ -1,4 +1,0 @@
-Anchored
-========
-
-http://anchored.io
