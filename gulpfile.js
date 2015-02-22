@@ -8,7 +8,13 @@ var gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     shell = require('gulp-shell');
 
-gulp.task('sqs server', shell.task(['cd template && /Users/demianxyz/.nvm/v0.11.14/bin/sqs server']));
+gulp.task('sqs server',
+  shell.task(['cd template && /Users/demianxyz/.nvm/v0.11.14/bin/sqs server'])
+);
+
+gulp.task('sqs clear cache',
+  shell.task(['cd template && /Users/demianxyz/.nvm/v0.11.14/bin/sqs buster'])
+);
 
 gulp.task('less', function () {
   gulp.src('./public/modules/app/style.less')
